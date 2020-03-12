@@ -5,41 +5,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- link css -->
     <link rel="stylesheet" href="style.css">
+
+<!-- link tipografia -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <title>¡Hey que planet!</title>
 </head>
+<link rel="shortcut icon" href="./media/favicon.png" type="image/x-icon">
 <body>
+
     <!-- EMPIEZA MENU -->
     <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark" my-navbar>
-        <a class="navbar-brand" href="#">Hey que planet!</a>
+        <a class="navbar-brand" href="#"><img  id="logo" src="./media/heyqueplanet.png" alt=""> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse"  id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">¿Sabías qué?</a>
+                <a class="nav-link" href="#">&nbsp; &nbsp; &nbsp;¿Sabías qué? &nbsp; &nbsp; &nbsp;</a>
               </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tienda online</a>
+              <a class="nav-link" href="#">Tienda online &nbsp; &nbsp; &nbsp;</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="contacto.html">Contacto &nbsp; &nbsp; &nbsp;</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Donar</a>
+                <a class="nav-link" href="#">Donar &nbsp; &nbsp;</a>
               </li>
           </ul>
         </div>
       </nav>
     <!-- TERMINA MENU -->
 
+
+    <!-- INICIA CARROUSEL -->
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./media/tortuga1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>ÚNETE A NUESTRO MOVIMIENTO</h5>
+        <p>Para prohibir los plásticos de un solo uso.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./media/arboles1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>La importancia de plantar un árbol</h5>
+        <p>La tala  incluye la fragmentación del hábitat de las especies</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./media/nasa1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Cuidemos a nuestro planeta</h5>
+        <p>Aún estamos a tiempo de hacer un cambio para tener un futuro de la mano con la naturaleza</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    <!-- TERMINA CARROUSEL -->
+
+
+    <!-- INICIAN CARDS -->
+    <div class="card my-card">
+      <div class="row my-row">
+
+    <div class="card col-md-3 col-sm-12 my-col" style="width: 18rem;">
+      <img src="./media/savetheearth.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">En <strong>Hey que planet!</strong> estamos comprometidos con el medio ambiente y la comunidad para poder detener los daños causados a nuestro planeta. </p>
+      </div>
+    </div>
+
+    <div class="card col-md-3 col-sm-12 my-col" style="width: 18rem;">
+      <img src="./media/keepnature.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Día a día estamos trabajando en preservar las áreas naturales.</p>
+      </div>
+    </div>
+
+    <div class="card col-md-3 col-sm-12 my-col" style="width: 18rem;">
+      <img src="./media/saveouroceans.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Nos ponemos en contacto con la comunidad para salir a limpiar nuestros oceanos.</p>
+      </div>
+    </div>
+
+    <div class="card col-md-3 col-sm-12 my-col" style="width: 18rem;">
+      <img src="./media/reuse.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Creemos en segundas oportunidades y por eso siempre estamos en búsqueda de nuevo uso para todas las cosas.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- TERMINAN CARDS -->
+
+
     <!-- INICIA VIDEO -->
-    <video src="/11_ProyectoFinal/media/raiz-2.mp4" type="video/mp4" class="video-header" width="1080" autoplay loop></video>
+    <video src="./media/raiz-3.mp4" type="video/mp4" class="video-header" width="1080" autoplay loop controls></video> 
     <!-- TERMINA VIDEO -->
 
 
 
+
+
+
+
+   
 
 
 
